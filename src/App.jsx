@@ -3,7 +3,8 @@ import { Route, Routes } from "react-router-dom";
 import SignUp from "./Component/SignUp";
 import SignIn from "./Component/SignIn";
 import { useState } from "react";
-import NavBar from "./Component/navBar";
+import NavBar from "./Component/NavBar";
+
 const App = () => {
   const [allInfo, setAllInfo] = useState([]);
 
